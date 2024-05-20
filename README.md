@@ -1,2 +1,4 @@
 # Palmetto_Transfer_Tool
-tool for automatic transfer of files to globus
+Tool for automatic transfer of files to globus
+
+globus_refresh is the main transfer tool to send files

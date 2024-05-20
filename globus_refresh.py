@@ -15,8 +15,8 @@ USER_NAME = getpass.getuser()
 
 
 #get client ID from globus online you need this to be able to access globus transfer
-CLIENT_ID = "61338d24-54d5-408f-a10d-66c06b59f6d2"
-CLIENT_ID = "6ddaa17a-2fdc-43d9-b0a9-a8399c6b3462"
+CLIENT_ID = ""
+CLIENT_ID = ""
 auth_client = globus_sdk.NativeAppAuthClient(CLIENT_ID)
 
 
@@ -119,7 +119,7 @@ while(1):
         # create a Transfer task consisting of one or more items
         flag1 = 1111
         task_data = globus_sdk.TransferData(
-            source_endpoint="b192e704-5d64-11ee-8775-1dc3121de006", destination_endpoint="33fdf1d5-7b1c-4a21-8d3b-dd4b48d60dfa"
+            source_endpoint="", destination_endpoint=""
         )
 
 

@@ -1,7 +1,7 @@
 import globus_sdk
 from globus_sdk.scopes import TransferScopes
 
-CLIENT_ID = "6ddaa17a-2fdc-43d9-b0a9-a8399c6b3462"
+CLIENT_ID = ""
 auth_client = globus_sdk.NativeAppAuthClient(CLIENT_ID)
 
 # requested_scopes specifies a list of scopes to request

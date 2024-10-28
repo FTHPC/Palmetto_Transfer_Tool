@@ -21,9 +21,9 @@ transfer_client = globus_sdk.TransferClient(
 )
 
 # Globus Tutorial Endpoint 1
-source_endpoint_id = "b192e704-5d64-11ee-8775-1dc3121de006"
+source_endpoint_id = ""
 # Globus Tutorial Endpoint 2
-dest_endpoint_id = "ad329e5e-4738-11e8-8ed2-0a6d4e044368"
+dest_endpoint_id = ""
 
 # create a Transfer task consisting of one or more items
 task_data = globus_sdk.TransferData(
